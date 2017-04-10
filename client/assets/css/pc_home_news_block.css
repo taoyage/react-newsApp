@@ -1,0 +1,49 @@
+/*
+* @Author: accord
+* @Date:   2017-04-10 11:18:43
+* @Last Modified by:   accord
+* @Last Modified time: 2017-04-10 15:15:12
+*/
+
+
+
+.top_world_news{
+	margin-top:35px;
+}
+
+.news_wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.news_wrap img {
+    width: 112px;
+    height: 90px;
+    margin-left: 6px;
+}
+
+.news_wrap div:nth-child(1)>div>img{
+	margin-left:0;
+}
+
+.news_wrap div:nth-child(4)>div>img{
+	margin-left:0;
+}
+
+.news_wrap .custom_card > h3 {
+    width: 112px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/*.news_wrap .custom_card > h3 :first-child{
+
+}*/
+
+
+/*.channel-h5__footer_next > a:first-child {
+        border-right: 1px solid #f0f0f0;
+    }*/
