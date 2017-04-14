@@ -1,0 +1,19 @@
+/*
+* @Author: accord
+* @Date:   2017-04-10 16:11:47
+* @Last Modified by:   accord
+* @Last Modified time: 2017-04-12 09:56:05
+*/
+
+.tabs_news{
+	margin:0 10px 0 10px;
+}
+
+.tabs_news li {
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

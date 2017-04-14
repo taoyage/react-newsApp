@@ -3,7 +3,7 @@
  * @FileName: pc_home.js 						   
  * @Date:   2017-04-08 14:09:44 						   
  * @Last Modified by:   accord 	   
- * @Last Modified time: 2017-04-10 12:28:30 	   
+ * @Last Modified time: 2017-04-12 15:57:50 	   
  */
 
 import React from 'react';
@@ -12,6 +12,7 @@ import PCHeader from '../../components/pc_header';
 import PCCarousel from '../../components/pc_home_carousel';
 import PCHomeNewsBlock from '../../components/pc_home_news_block';
 import PCHomeNewsList from '../../components/pc_home_news_list';
+// import PCHomeSidebar from '../../components/pc_home_sidebar';
 
 const TabPane = Tabs.TabPane;
 
@@ -26,14 +27,11 @@ export default class PCHome extends React.Component {
 				<section className="container">
 					<Row>
 						<Col span={2}></Col>
-						<Col span={7}>
-							<section className="left">
-								<PCCarousel />
-								<PCHomeNewsBlock count={6} type="guoji" width="400px" cartTitle="国际头条" imageWidth="112px" />
-							</section>
+						<Col span={5}>
+							
 						</Col>
-						<Col span={7}>
-							<Tabs class="tabs_news">
+						<Col span={8}>
+							<Tabs className="tabs_news">
 								<TabPane tab="头条新闻" key="1">
 									<PCHomeNewsList count={22} type="top" width="100%" bordered="false"/>
 								</TabPane>
@@ -42,10 +40,18 @@ export default class PCHome extends React.Component {
 								</TabPane>
 							</Tabs>
 						</Col>
-						<Col span={5}>
-							aa
+						<Col span={7}>
+							<section className="left">
+								<PCCarousel />
+								<PCHomeNewsBlock count={6} type="guoji" width="400px" cartTitle="国际头条" imageWidth="112px" />
+							</section>
 						</Col>
 						<Col span={2}></Col>
+					</Row>
+					<Row>
+						<Col span={24}>
+							<PCHomeNewsBlock count={6} type="guoji" width="400px" cartTitle="国际头条" imageWidth="112px" />
+						</Col>
 					</Row>
 				</section>
 			

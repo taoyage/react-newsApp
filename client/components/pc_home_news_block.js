@@ -3,7 +3,7 @@
  * @FileName: pc_home_news_block.js                            
  * @Date:   2017-04-08 18:07:52                            
  * @Last Modified by:   accord     
- * @Last Modified time: 2017-04-10 15:08:03        
+ * @Last Modified time: 2017-04-12 13:07:56        
  */
 
 import React from 'react';
@@ -30,7 +30,7 @@ export default class PCNewsBlock extends React.Component {
         const { news } = this.state;
         const newsList = news.length ? news.map((newsItem, index) => {
             return (
-                <div key={index}>
+                <div className="news_block" key={index}>
                     <div className="custom_img">
                         <img src={newsItem.thumbnail_pic_s} className="image_style" alt=""/>
                     </div>

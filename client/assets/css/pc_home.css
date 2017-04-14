@@ -2,7 +2,7 @@
 * @Author: accord
 * @Date:   2017-04-10 11:59:02
 * @Last Modified by:   accord
-* @Last Modified time: 2017-04-10 15:11:42
+* @Last Modified time: 2017-04-12 09:55:46
 */
 
 #home .container{
@@ -12,5 +12,6 @@
 }
 
 #home .container .left{
-	padding:35px 10px 10px 0;
+	padding-top:35px;
 }
+

@@ -2,13 +2,11 @@
 * @Author: accord
 * @Date:   2017-04-10 11:18:43
 * @Last Modified by:   accord
-* @Last Modified time: 2017-04-10 15:15:12
+* @Last Modified time: 2017-04-12 13:07:16
 */
 
-
-
 .top_world_news{
-	margin-top:35px;
+	margin-top:29px;
 }
 
 .news_wrap {
@@ -20,7 +18,7 @@
 .news_wrap img {
     width: 112px;
     height: 90px;
-    margin-left: 6px;
+    margin-left: 11px;
 }
 
 .news_wrap div:nth-child(1)>div>img{
@@ -36,14 +34,25 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-left:11px;
 }
 
+.news_wrap>div:nth-child(1)>.custom_card>h3{
+    margin-left:0;
+}
 
-/*.news_wrap .custom_card > h3 :first-child{
+.news_wrap>div:nth-child(4)>.custom_card>h3{
+    margin-left:0;
+}
 
-}*/
+.news_wrap .custom_card > p {
+    margin-left:11px;
+}
 
+.news_wrap>div:nth-child(1)>.custom_card>p{
+    margin-left:0;
+}
 
-/*.channel-h5__footer_next > a:first-child {
-        border-right: 1px solid #f0f0f0;
-    }*/
+.news_wrap>div:nth-child(4)>.custom_card>p{
+    margin-left:0;
+}
