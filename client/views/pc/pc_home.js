@@ -3,7 +3,7 @@
  * @FileName: pc_home.js 						   
  * @Date:   2017-04-08 14:09:44 						   
  * @Last Modified by:   accord 	   
- * @Last Modified time: 2017-04-12 15:57:50 	   
+ * @Last Modified time: 2017-04-18 15:46:14 	   
  */
 
 import React from 'react';
@@ -12,6 +12,9 @@ import PCHeader from '../../components/pc_header';
 import PCCarousel from '../../components/pc_home_carousel';
 import PCHomeNewsBlock from '../../components/pc_home_news_block';
 import PCHomeNewsList from '../../components/pc_home_news_list';
+
+/*test input format*/
+import NumberFormat from 'react-input-number-format';
 // import PCHomeSidebar from '../../components/pc_home_sidebar';
 
 const TabPane = Tabs.TabPane;
@@ -26,7 +29,9 @@ export default class PCHome extends React.Component {
 				<PCHeader></PCHeader>
 				<section className="container">
 					<Row>
-						<Col span={2}></Col>
+						<Col span={2}>
+							<NumberFormat displayType="text" value={1231} thousandSeparator={true} prefix={'$$'}/>
+						</Col>
 						<Col span={5}>
 							
 						</Col>

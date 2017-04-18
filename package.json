@@ -5,8 +5,10 @@
   "dependencies": {
     "antd": "^2.9.0",
     "axios": "^0.16.0",
+    "prop-types": "^15.5.8",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-input-number-format": "^1.4.1",
     "react-router-dom": "^4.0.0"
   },
   "devDependencies": {
